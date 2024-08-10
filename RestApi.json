@@ -1,0 +1,117 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Assignment6 API test ",
+    "collectionId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+    "dateExported": "2024-08-03T17:24:43.284Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "117bf1a5-5740-4afd-9ce0-31b297409e5d",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/get/shops",
+            "url": "http://localhost:5000/get/shops/3",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-08-03T17:05:38.807Z",
+            "modified": "2024-08-03T17:24:03.661Z",
+            "headers": []
+        },
+        {
+            "_id": "51ff18c0-a5d2-42ba-8fe4-a800ac4092e6",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/get/shops",
+            "url": "http://localhost:5000/get/shops",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-08-03T17:07:52.371Z",
+            "modified": "2024-08-03T17:07:52.371Z",
+            "headers": []
+        },
+        {
+            "_id": "2c32961c-2d78-46f8-943f-4644f96c05cb",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/post/shops",
+            "url": "http://localhost:5000/post/shops",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-08-03T17:15:32.735Z",
+            "modified": "2024-08-03T17:24:11.649Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"names\": \"Swarna Jewellery\",\n    \"location\": \"Ranganathan Street, Hyderabad\",\n    \"contact_number\": \"040-23894756\",\n    \"opening_hours\": \"10 AM - 8 PM\",\n    \"owner_name\": \"Swarna Jewellers\",\n    \"website\": \"http://swarna.jewelry\",\n    \"description\": \"Retail shop specializing in traditional and modern jewelry.\",\n    \"rating\": 4.6\n}\n",
+                "form": []
+            }
+        },
+        {
+            "_id": "d42f3801-5d5e-4c48-a28d-d440a88f48b6",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/put/shops/1",
+            "url": "http://localhost:5000/put/shops/1",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-08-03T17:20:53.748Z",
+            "modified": "2024-08-03T17:24:14.348Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"names\": \"Kanchan Sarees\",\n  \"location\": \"Abids, Hyderabad\",\n  \"contact_number\": \"040-27291432\",\n  \"opening_hours\": \"11:00 AM - 10:00 PM\",\n  \"owner_name\": \"Ravi Kumar\",\n  \"website\": \"http://www.kanchansarees.com\",\n  \"description\": \"Specializes in sarees, bridal wear, and ethnic clothing.\",\n  \"rating\": \"4.7\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "4622b53f-a821-4dcd-b6f1-cb61475d52b2",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/get/shops",
+            "url": "http://localhost:5000/get/shops",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-08-03T17:21:04.099Z",
+            "modified": "2024-08-03T17:21:04.099Z",
+            "headers": []
+        },
+        {
+            "_id": "42d1643e-05bb-4082-a7e7-b9f82a1abb09",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/get/shops",
+            "url": "http://localhost:5000/get/shops",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-08-03T17:22:33.123Z",
+            "modified": "2024-08-03T17:22:33.123Z",
+            "headers": []
+        },
+        {
+            "_id": "1c666c57-f9e8-4898-9915-931481a92c1d",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/delete/shops/2",
+            "url": "http://localhost:5000/delete/shops/2",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-08-03T17:23:09.812Z",
+            "modified": "2024-08-03T17:23:09.812Z",
+            "headers": []
+        },
+        {
+            "_id": "19dbdfaf-a289-46ee-82f7-15158d915b85",
+            "colId": "4302b17e-c1c4-4c02-bca9-2115b974e5c4",
+            "containerId": "",
+            "name": "http://localhost:5000/delete/shops/2",
+            "url": "http://localhost:5000/get/shops",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-08-03T17:23:38.252Z",
+            "modified": "2024-08-03T17:23:38.252Z",
+            "headers": []
+        }
+    ],
+    "ref": "nSdqx5Oqp22kauWBncReSrd0KYq6aHrTWRtX0Nht-KSg234RmOoZ25lvy5i99nHBWs1T3I_phXqlPSqPx9JvkA"
+}
