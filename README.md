@@ -1,0 +1,1 @@
+I have used nodeJS, ExpressJs and also MySQL data for the backend data and once the methods like get delete post put are performed after running the server.js file in the localhost using postman or thunderclient a visual studio code extension the data in the databse gets altered as per the request method
